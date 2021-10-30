@@ -4,7 +4,7 @@ const Navbar=()=>{
 return(
         <>
 <ul>
-        <li>Home</li>
+        <li>Pritpal</li>
         <li><a href="/form">ABOUT</a></li>
         <li>BLOG</li>
         <li>CONTACT</li>
