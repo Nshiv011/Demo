@@ -5,6 +5,7 @@ import {Route,Switch} from "react-router";
 // import Cards from "./Cards";
 import Cardss from "./Cardss";
 import Car from "./Car";
+import Useeffect from "./Useeffect";
 
 const Rout=()=>{
         return(
@@ -12,7 +13,7 @@ const Rout=()=>{
 <Switch>
 <Route exact path="/" component={Head}/>
 <Route exact path="/card" component={Cardss}/>
-{/* <Route exact path="/car" component={Car}/> */}
+<Route exact path="/useeffect" component={Useeffect}/>
 </Switch>
 
                 </>
